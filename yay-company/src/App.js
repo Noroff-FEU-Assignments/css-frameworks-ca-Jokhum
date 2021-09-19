@@ -1,6 +1,5 @@
 import React from "react";
 import "./sass/style.scss";
-import "./App.css";
 import Navbar from "react-bootstrap/Navbar";
 import Form from "react-bootstrap/Form";
 import FormControl from "react-bootstrap/FormControl";

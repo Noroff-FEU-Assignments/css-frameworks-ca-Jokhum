@@ -1,9 +1,20 @@
-// Custom
+// Universal
+
+html,
+body {
+  height: 100%;
+}
 
 $colour-primary: #e92569;
 $colour-secondary: #767676;
 $colour-dark: #0a0a0a;
 $colour-light: #efefef;
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 
 // bootstrap
 
@@ -23,6 +34,16 @@ $headings-color: $colour-primary;
 // body
 
 $body-color: $colour-secondary;
+
+body {
+  margin: 0;
+  background: radial-gradient(#ffffff, #e5e5e5);
+}
+
+.wrapper {
+  flex: 1 0 auto;
+  margin-bottom: 6rem;
+}
 
 // forms
 
