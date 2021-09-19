@@ -1,0 +1,13 @@
+footer {
+  background-color: white;
+  display: flex;
+  flex-shrink: 0;
+
+  & p {
+    margin: 0;
+  }
+}
+
+.fab {
+  font-size: 30px;
+}

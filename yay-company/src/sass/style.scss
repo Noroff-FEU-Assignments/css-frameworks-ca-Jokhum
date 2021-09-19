@@ -1,0 +1,57 @@
+// Custom
+
+$colour-primary: #e92569;
+$colour-secondary: #767676;
+$colour-dark: #0a0a0a;
+$colour-light: #efefef;
+
+// bootstrap
+
+$theme-colors: (
+  "primary": $colour-primary,
+  "secondary": $colour-secondary,
+  "dark": $colour-dark,
+  "light": $colour-light,
+);
+
+// fonts
+
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+$headings-color: $colour-primary;
+
+// body
+
+$body-color: $colour-secondary;
+
+// forms
+
+$form-label-color: $colour-secondary;
+$form-check-input-bg: $colour-primary;
+$form-check-label-color: $colour-secondary;
+$form-check-input-border: none;
+
+// tabs
+
+$nav-link-color: $colour-primary;
+$nav-tabs-link-active-bg: white;
+$nav-tabs-border-color: none;
+
+// accordion
+
+$btn-link-color: $colour-primary;
+$link-decoration: none;
+
+// navbar
+
+$navbar-light-brand-color: $colour-primary;
+$nav-link-padding-x: 1rem !important;
+
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/form";
+@import "./partials/tabs";
+@import "./partials/carousel";
+@import "./partials/footer";
+@import "./partials/navbar";
+@import "./partials/card";
+@import "./partials/buttons";

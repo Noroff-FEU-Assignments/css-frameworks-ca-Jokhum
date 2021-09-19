@@ -1,0 +1,25 @@
+// Contact Form
+
+.contact-form {
+  border-radius: 3px;
+  padding: 1rem;
+  background-color: $colour-light;
+}
+
+/* #formBasicWebsite::placeholder {
+  color: white;
+  background: linear-gradient(90deg, #7676769f 14%, white 0%);
+} */
+
+textarea {
+  resize: none;
+}
+
+.form-check {
+  margin: 1rem 0 1rem 0;
+}
+
+.fas {
+  margin-bottom: 1rem;
+  font-size: 25px;
+}
