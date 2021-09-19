@@ -8,7 +8,7 @@ function ContentTabs() {
     <Tabs
       defaultActiveKey="first"
       id="uncontrolled-tab-example"
-      className="mb-3 d-md-flex"
+      className="mb-3 d-md-none d-lg-flex"
     >
       <Tab eventKey="first" title="First">
         <Media className="d-flex p-3">
@@ -18,7 +18,7 @@ function ContentTabs() {
             src="./tab-images/tab-1.jpg"
             alt="Very nice TV"
           />
-          <Media.Body className="ml-2 px-2 d-flex flex-column justify-content-between">
+          <Media.Body className="ml-2 px-2 d-flex flex-column justify-content-around">
             <p>
               Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
               venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
