@@ -21,7 +21,7 @@ function App() {
   return (
     <Router>
       <div class="wrapper">
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="md">
           <Container>
             <Navbar.Brand href="#">The YAY Company</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
